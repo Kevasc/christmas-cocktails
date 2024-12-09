@@ -5,7 +5,6 @@ import Home from "./components/Home";
 const App = () => {
   return (
     <BrowserRouter>
-      {" "}
       <Routes>
         <Route path="/" element={<Home />} />
       </Routes>
