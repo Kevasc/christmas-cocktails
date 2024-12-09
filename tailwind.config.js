@@ -1,8 +1,13 @@
-/** @type {import('tailwindcss').Config} */
+// tailwind.config.js
 module.exports = {
-  content: ["./src/**/*.{js,jsx,ts,tsx}"],
+  content: ["./src/**/*.{js,jsx,ts,tsx}", "./public/index.html"],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        yesevaOne: ["Yeseva One", "sans-serif"],
+        germaniaOne: ["Germania One", "courier-prime"],
+      },
+    },
   },
   plugins: [],
 };
