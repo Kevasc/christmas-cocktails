@@ -12,7 +12,10 @@ To make it even more accessible, the menu can be viewed via a QR code.
 
 * QR code access for easy sharing
 
-## Built with
-* This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-* Snowfall effect from: https://github.com/cahilfoley/react-snowfall.git
+## View site 
+🎅 [Christmas Cocktails](https://kevasc.github.io/christmas-cocktails/)
 
+## Built with
+* React
+* Snowfall effect from: https://github.com/cahilfoley/react-snowfall.git
+* This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
