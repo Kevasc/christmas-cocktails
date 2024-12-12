@@ -1,6 +1,7 @@
 import { drinkList } from "../data";
 import DrinksCard from "./DrinksCard";
 import santa from "./santa.png";
+import Snowfall from "react-snowfall";
 const Home = () => {
   const cocktailList = drinkList.cocktails.map((drink, index) => {
     return <DrinksCard key={index} drink={drink} />;
@@ -10,15 +11,20 @@ const Home = () => {
   });
 
   return (
-    <div className="grid justify-center text-center p-8  border-2 bg-red-100 items-center font-mono">
+    <div className="grid justify-center text-center p-8 border-2 bg-red-100 items-center font-mono h-full">
+      <Snowfall
+        style={{ position: "fixed", height: "100%" }}
+        snowflakeCount={75}
+        color={"#dee4fd"}
+      />
       <h1 className="text-8xl font-medium font-monsieurLaDouliseRegular p-3 pt-2">
         Christmas Cocktails
       </h1>
-      <p className="text-base text-red-700 underline text-black-500 p-3">
+      <p className="text-base text-red-700 underline text-black-500 p-1">
         Cocktails & Shots
       </p>
       {cocktailList}
-      <p className="text-base  text-red-700 underline text-black-500 p-3">
+      <p className="text-base  text-red-700 underline text-black-500 p-1">
         Mocktails
       </p>
       {mocktailsList}
