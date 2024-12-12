@@ -11,7 +11,7 @@ const Home = () => {
   });
 
   return (
-    <div className="grid justify-center text-center p-8  bg-red-100 items-center font-mono h-full">
+    <div className="grid justify-center text-center p-8 bg-red-100 items-center font-mono h-full">
       <Snowfall
         style={{ position: "fixed", height: "100%" }}
         snowflakeCount={75}
