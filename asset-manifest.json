@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/christmas-cocktails/static/css/main.649bae50.css",
-    "main.js": "/christmas-cocktails/static/js/main.a47d8736.js",
+    "main.js": "/christmas-cocktails/static/js/main.7161de82.js",
     "static/js/488.f5ba04b7.chunk.js": "/christmas-cocktails/static/js/488.f5ba04b7.chunk.js",
     "static/media/santa.png": "/christmas-cocktails/static/media/santa.f1796ef632eae4328edc.png",
     "index.html": "/christmas-cocktails/index.html",
     "main.649bae50.css.map": "/christmas-cocktails/static/css/main.649bae50.css.map",
-    "main.a47d8736.js.map": "/christmas-cocktails/static/js/main.a47d8736.js.map",
+    "main.7161de82.js.map": "/christmas-cocktails/static/js/main.7161de82.js.map",
     "488.f5ba04b7.chunk.js.map": "/christmas-cocktails/static/js/488.f5ba04b7.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.649bae50.css",
-    "static/js/main.a47d8736.js"
+    "static/js/main.7161de82.js"
   ]
 }
