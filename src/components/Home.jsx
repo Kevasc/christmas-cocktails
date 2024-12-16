@@ -14,10 +14,10 @@ const Home = () => {
     <div className="grid justify-center text-center p-8 bg-red-100 items-center font-mono h-full">
       <Snowfall
         style={{ position: "fixed", height: "100%" }}
-        snowflakeCount={25}
+        snowflakeCount={100}
         color={"#dee4fd"}
       />
-      <h1 className="text-8xl font-medium font-monsieurLaDouliseRegular p-3 pt-2">
+      <h1 className="text-8xl text-green-900 font-medium font-monsieurLaDouliseRegular p-3 pt-2">
         Christmas Cocktails
       </h1>
       <p className="text-base text-red-700 underline text-black-500 p-1">
