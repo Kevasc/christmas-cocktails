@@ -1,11 +1,11 @@
 export const drinkList = {
   cocktails: [
-    {
-      name: "Lychee Spritz",
-      description:
-        "A light and bubbly cocktail with the exotic sweetness of lychee, complemented by sparkling Prosecco and a refreshing hint of fresh mint.",
-      ingredients: ["Lychee juice", "Prosecco", "Soda water", "Fresh Mint"],
-    },
+    // {
+    //   name: "Lychee Spritz",
+    //   description:
+    //     "A light and bubbly cocktail with the exotic sweetness of lychee, complemented by sparkling Prosecco and a refreshing hint of fresh mint.",
+    //   ingredients: ["Lychee juice", "Prosecco", "Soda water", "Fresh Mint"],
+    // },
     {
       name: "Mudslide",
       description:
@@ -56,30 +56,30 @@ export const drinkList = {
     },
   ],
 
-  mocktails: [
-    {
-      name: "Mulled Apple Juice",
-      description:
-        "A cozy and aromatic drink with spiced apple juice, hints of cinnamon, cloves, and orange peel, sweetened with a touch of honey.",
-      ingredients: [
-        "Apple juice",
-        "Orange Peel",
-        "Cinnamon sticks",
-        "Cloves",
-        "Orange Peel",
-        "Honey",
-      ],
-    },
-    {
-      name: "Apple & Elderflower Sparkle",
-      description:
-        "A crisp and refreshing mocktail featuring the delicate floral notes of elderflower, complemented by bubbly apple juice and fresh mint.",
-      ingredients: [
-        "Apple juice",
-        "Sparkling water",
-        "Elderflower",
-        "Fresh Mint",
-      ],
-    },
-  ],
+  // mocktails: [
+  //   {
+  //     name: "Mulled Apple Juice",
+  //     description:
+  //       "A cozy and aromatic drink with spiced apple juice, hints of cinnamon, cloves, and orange peel, sweetened with a touch of honey.",
+  //     ingredients: [
+  //       "Apple juice",
+  //       "Orange Peel",
+  //       "Cinnamon sticks",
+  //       "Cloves",
+  //       "Orange Peel",
+  //       "Honey",
+  //     ],
+  //   },
+  //   {
+  //     name: "Apple & Elderflower Sparkle",
+  //     description:
+  //       "A crisp and refreshing mocktail featuring the delicate floral notes of elderflower, complemented by bubbly apple juice and fresh mint.",
+  //     ingredients: [
+  //       "Apple juice",
+  //       "Sparkling water",
+  //       "Elderflower",
+  //       "Fresh Mint",
+  //     ],
+  //   },
+  // ],
 };
