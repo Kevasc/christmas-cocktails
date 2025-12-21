@@ -1,36 +1,41 @@
 import { drinkList } from "../data";
 import DrinksCard from "./DrinksCard";
-// import santa from "./santa.png";
-import Snowfall from "react-snowfall";
+import image from "../components/compo__no-bg.png";
+
 const Home = () => {
-  const cocktailList = drinkList.cocktails.map((drink, index) => {
-    return <DrinksCard key={index} drink={drink} />;
-  });
-  // const mocktailsList = drinkList.mocktails.map((drink, index) => {
-  //   return <DrinksCard key={index} drink={drink} />;
-  // });
+  const cocktailList = drinkList.cocktails.map((drink, index) => (
+    <DrinksCard key={index} drink={drink} />
+  ));
 
   return (
-    <div className="grid justify-center text-center p-8 bg-[radial-gradient(circle,#fdd1ea,#efc7ea,#debeea,#c9b6ea,#afafea,#b3ace8,#b8aae5,#bca7e2,#d9a8d8,#edaccb,#f9b4bf,#fdbeb7)] items-center font-mono h-full">
-      <Snowfall
+    <div className="min-h-screen bg-gradient-to-b from-sky-800 to-zinc-900 flex flex-col items-center px-4 py-6 font-body">
+      {/* <Snowfall
         style={{ position: "fixed", height: "100%" }}
-        snowflakeCount={75}
-        color={"#ffffff"}
-      />
-      <h1 className="text-8xl text-pink-100 font-medium font-germaniaOne p-3 pt-2">
+        snowflakeCount={10}
+        color="#ffffff"
+      /> */}
+      <h1 className="mb-5 xl:text-8xl md:text-6xl text-shadow-black-200 text-6xl mt-10 font-bold text-red-500 font-clash text-center">
         Christmas Cocktails
       </h1>
-      {/* <p className="text-base text-red-700 underline text-black-500 p-1">
-        Cocktails & Shots
-      </p> */}
-      {cocktailList}
-      {/* <p className="text-base  text-red-700 underline text-black-500 p-1">
-        Mocktails
+      <p className="text-lg font-clash font-bold mb-20 text-zinc-50">
+        Served 'til ingredients run out
       </p>
-      {mocktailsList} */}
-      {/* <div className="flex justify-center h-48">
-        <img src={santa} alt="Logo" />
+      {/* divider
+      <div className="flex items-center justify-center gap-1 mb-10 my-3 opacity-100">
+        <div className="h-px w-24 bg-slate-700" />
+        <span>⛄︎</span>
+        <div className="h-px w-24 bg-slate-700" />
       </div> */}
+      <div className="flex flex-col items-center w-full gap-3">
+        {cocktailList}
+      </div>
+      <div className="mt-12 mb-6">
+        <img
+          src={image}
+          alt="Christmas decoration"
+          className="w-32 rounded-full"
+        />
+      </div>
     </div>
   );
 };
