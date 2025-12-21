@@ -6,7 +6,11 @@ module.exports = {
       fontFamily: {
         yesevaOne: ["Yeseva One", "sans-serif"],
         germaniaOne: ["Germania One", "courier-prime"],
-        monsieurLaDouliseRegular: ["Monsieur La Doulaise", "cursive"],
+        parisienne: ["Parisienne", "cursive"],
+        monsieurLaDoulise: ["Monsieur La Doulaise", "cursive"],
+        display: ["Cormorant Garamond", "serif"],
+        body: ["IBM Plex Sans", "sans-serif"],
+        clash: ["Clash Display", "sans-serif"],
       },
     },
   },
