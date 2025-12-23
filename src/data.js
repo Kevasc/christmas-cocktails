@@ -2,7 +2,7 @@ export const drinkList = {
   cocktails: [
     {
       name: "Mimosa",
-      description: "Half Prosecco to half oj",
+      description: "Half prosecco to half orange juice",
       ingredients: ["Prosecco", "Orange Juice"],
     },
     {
@@ -20,7 +20,7 @@ export const drinkList = {
     {
       name: "Moscow Mule",
       description:
-        "1 shot vodka, tope with ginger beer, add a sprig of mint, a lime wheel and some ice",
+        "1 shot vodka, top with ginger beer, add a sprig of mint, a lime wheel and some ice",
       ingredients: ["Vodka", "Ginger Beer", "Fresh Mint", "Lime"],
     },
     {
@@ -32,7 +32,7 @@ export const drinkList = {
     {
       name: "Mudslide",
       description:
-        "1 shot vodka, 1 shot kahlua, 1 shot Baileys, 1 1/2 shot double cream. Shake with ice and serve in a choclate swirled glass",
+        "1 shot vodka, 1 shot kahlua, 1 shot baileys, 1 1/2 shot double cream. Shake with ice and serve in a choclate swirled glass",
       ingredients: [
         "Vodka",
         "Coffee liqueur",
