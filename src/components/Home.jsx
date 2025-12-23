@@ -14,10 +14,10 @@ const Home = () => {
         snowflakeCount={10}
         color="#ffffff"
       /> */}
-      <h1 className="mb-5 xl:text-8xl md:text-6xl text-shadow-black-200 text-6xl mt-10 font-bold text-red-500 font-clash text-center">
+      <h1 className="mb-5 xl:text-9xl md:text-8xl text-shadow-black-200 text-7xl mt-10 font-bold text-red-500 font-clash text-center">
         Christmas Cocktails
       </h1>
-      <p className="text-lg font-clash font-bold mb-20 text-zinc-50">
+      <p className="text-lg font-clash font-bold mb-10 text-zinc-50">
         Served 'til ingredients run out
       </p>
       {/* divider
