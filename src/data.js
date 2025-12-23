@@ -1,15 +1,15 @@
 export const drinkList = {
   cocktails: [
     {
-      name: "Mudslide",
+      name: "Mimosa",
+      description: "Half Prosecco to half oj",
+      ingredients: ["Prosecco", "Orange Juice"],
+    },
+    {
+      name: "Espresso Martini",
       description:
-        "1 shot vodka, 1 shot kahlua, 1 shot Baileys, 1 1/2 shot double cream. Shake with ice and serve in a choclate swirled glass",
-      ingredients: [
-        "Vodka",
-        "Coffee liqueur",
-        "Irish cream",
-        "Chocolate syrup",
-      ],
+        "1 shot vodka, 2 shots kahlua, 2 shots espresso. Shake well with ice to create a micro foam and pour out using the sieve",
+      ingredients: ["Vodka", "Coffee", "Kahlua", "Coffee Bean Garnish"],
     },
     {
       name: "Baby Guinness / Mint Baby Guinness",
@@ -30,10 +30,15 @@ export const drinkList = {
       ingredients: ["Vodka", "Cranberry Juice", "Peach Schnapps", "Lime"],
     },
     {
-      name: "Espresso Martini",
+      name: "Mudslide",
       description:
-        "1 shot vodka, 2 shots kahlua, 2 shots espresso. Shake well with ice to create a micro foam and pour out using the sieve",
-      ingredients: ["Vodka", "Coffee", "Kahlua", "Coffee Bean Garnish"],
+        "1 shot vodka, 1 shot kahlua, 1 shot Baileys, 1 1/2 shot double cream. Shake with ice and serve in a choclate swirled glass",
+      ingredients: [
+        "Vodka",
+        "Coffee liqueur",
+        "Irish cream",
+        "Chocolate syrup",
+      ],
     },
   ],
 };
