@@ -5,7 +5,7 @@ const DrinksCard = ({ drink }) => {
         <h2 className="text-2xl font-bold font-body tracking-wide text-zinc-200 xl:text-3xl">
           {drink.name}
         </h2>
-        <p className="text-[10px] uppercase tracking-widest text-slate-950 font-bold dark:text-zinc-400 mt-1 font-body">
+        <p className="text-[10px] uppercase tracking-widest text-gray-200 font-bold dark:text-zinc-400 mt-1 font-body">
           How to make
         </p>
         <p className=" leading-snug text-zinc-200 text-zinc-300 font-body">
@@ -22,9 +22,9 @@ const DrinksCard = ({ drink }) => {
       </div>
       {/* divider */}
       <div className="flex items-center justify-center gap-1 mb-10 my-3 opacity-100">
-        <div className="h-px w-24 bg-slate-950" />
-        <span className="text-slate-950">✮</span>
-        <div className="h-px w-24 bg-slate-950" />
+        <div className="h-px w-24 bg-red-500" />
+        <span className="text-red-500">✮</span>
+        <div className="h-px w-24 bg-red-500" />
       </div>
     </div>
   );
