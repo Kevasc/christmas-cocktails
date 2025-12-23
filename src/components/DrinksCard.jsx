@@ -21,10 +21,10 @@ const DrinksCard = ({ drink }) => {
         </p> */}
       </div>
       {/* divider */}
-      <div className="flex items-center justify-center gap-1 mb-10 my-3 opacity-100">
-        <div className="h-px w-24 bg-red-500" />
-        <span className="text-red-500">✮</span>
-        <div className="h-px w-24 bg-red-500" />
+      <div className="flex items-center justify-center gap-1 mb-3 my-3 opacity-100">
+        <div className="h-px w-24 bg-slate-500" />
+        <span className="text-slate-500">✮</span>
+        <div className="h-px w-24 bg-slate-500" />
       </div>
     </div>
   );

@@ -26,7 +26,7 @@ const Home = () => {
         <span>⛄︎</span>
         <div className="h-px w-24 bg-slate-700" />
       </div> */}
-      <div className="flex flex-col items-center w-full gap-3">
+      <div className="flex flex-col items-center w-full gap-2">
         {cocktailList}
       </div>
       <div className="mt-12 mb-6">
